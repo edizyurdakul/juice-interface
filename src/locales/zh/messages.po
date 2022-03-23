@@ -312,6 +312,12 @@ msgid "All changes will be applied to the <0>upcoming</0> funding cycle."
 msgstr "所有更改会应用于 <0>之后的</0> 筹款周期。"
 
 #: src/components/v1/shared/BudgetForm.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "All events"
+msgstr ""
+
+#: src/components/shared/forms/BudgetForm.tsx
+#: src/components/v2/V2Create/forms/FundingForm/index.tsx
 msgid "All funds can be distributed by the project. The project will have no overflow (the same as setting the target to infinity)."
 msgstr "所有资金都可以分配给项目，项目将不再会产生溢出（把筹款目标设为无限也是同样结果）。"
 
@@ -804,6 +810,12 @@ msgstr ""
 
 #: src/components/v2/V2Project/V2ProjectReconfigureModal/index.tsx
 msgid "Distribution limit, duration and payouts"
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Funds"
+msgstr ""
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Distributed Reserves"
 msgstr ""
 
 #: src/components/v2/V2Project/V2FundingCycleSection/PayoutSplitsCard.tsx
@@ -863,6 +875,10 @@ msgstr "由于其公共性质，任何对合约的恶意利用都可能产生不
 #: src/components/v2/V2Project/V2FundingCycleSection/FundingCycleDetails.tsx
 msgid "Duration"
 msgstr "持续时间"
+
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "ERC20 Deployed"
+msgstr ""
 
 #: src/components/Landing/index.tsx
 msgid "ERC-20 community tokens"
@@ -1265,7 +1281,7 @@ msgid "Light theme"
 msgstr "浅色主题"
 
 #: src/components/Projects/index.tsx
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/modals/ParticipantsModal.tsx
 msgid "Load more"
 msgstr "加载更多"
@@ -1377,7 +1393,7 @@ msgstr ""
 msgid "No"
 msgstr "取消"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "No activity yet"
 msgstr "暂无动态"
 
@@ -1453,6 +1469,12 @@ msgstr "项目拥有者钱包内的其他资产"
 msgid "Overflow is created if your project's balance exceeds your funding cycle target. Overflow can be redeemed by your project's token holders."
 msgstr "如果您项目的资金余额超出您的筹款周期目标，就会产生溢出。项目代币持有人可以赎回溢出部分资金。"
 
+#: src/components/v2/V2Project/V2FundingCycleSection/FundingCycleDetails.tsx
+msgid "Owner can mint tokens"
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Paid"
+msgstr ""
+
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v2/V2Project/V2PayButton/index.tsx
 msgid "Paid as <0/>"
@@ -1474,7 +1496,6 @@ msgstr "已暂停"
 
 #: src/components/shared/formItems/ProjectPayButton.tsx
 #: src/components/v1/V1Create/ConfirmDeployProject.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 #: src/components/v1/V1Project/V1PayButton.tsx
 #: src/components/v2/V2Project/V2PayButton/V2ConfirmPayModal/index.tsx
 #: src/components/v2/V2Project/V2PayButton/index.tsx
@@ -1635,6 +1656,11 @@ msgid "Project ID:"
 msgstr ""
 
 #: src/components/shared/IssueTicketsButton.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Project Created"
+msgstr ""
+
+#: src/components/v1/V1Project/Rewards/IssueTickets.tsx
 msgid "Project Token"
 msgstr "项目代币"
 
@@ -1726,6 +1752,10 @@ msgid "Projects using a reserved rate of {reservedRateRiskyMin}% or more will ap
 msgstr "项目使用的代币保留率大于或等于{reservedRateRiskyMin}% 会让捐款人觉得项目不安全，因为这种情况下给您的项目捐款从而获得的代币数量会比较少。"
 
 #: src/components/Landing/index.tsx
+msgid "Protocol stats"
+msgstr ""
+
+#: src/components/Landing/index.tsx
 msgid "Public goods and services"
 msgstr "公共产品和服务"
 
@@ -1803,6 +1833,7 @@ msgid "Redeem"
 msgstr "赎回"
 
 #: src/components/shared/ManageTokensModal.tsx
+#: src/components/v1/V1Project/Rewards/ManageTokensModal.tsx
 msgid "Redeem your {tokensLabel} for a portion of the project's overflow. Any {tokensLabel} you redeem will be burned."
 msgstr "赎回你的 {tokensLabel} 来获取一部分项目的溢出资金。用于赎回的 {tokensLabel} 将会被燃烧掉。"
 
@@ -1821,6 +1852,12 @@ msgstr "燃烧 {tokensTextLong} 来赎回 ETH"
 
 #: src/components/v2/V2Create/forms/TokenForm/index.tsx
 #: src/components/v2/V2Project/V2FundingCycleSection/FundingCycleDetails.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
+msgid "Redeemed"
+msgstr ""
+
+#: src/components/v2/V2Create/DeployProjectModal/index.tsx
+#: src/components/v2/V2Create/tabs/TokenTab/TokenTabContent.tsx
 msgid "Redemption rate"
 msgstr "赎回率"
 
@@ -2611,7 +2648,6 @@ msgid "With an infinite distribution limit, all funds can be distributed by the 
 msgstr ""
 
 #: src/components/v1/FundingCycle/modals/WithdrawModal.tsx
-#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "Withdraw"
 msgstr "提取"
 
@@ -2887,7 +2923,7 @@ msgstr "已提取 {0}/{1}"
 msgid "{0}{1}"
 msgstr "{0}{1}"
 
-#: src/components/v1/V1Project/ProjectActivity/ActivityTabContent.tsx
+#: src/components/v1/V1Project/ProjectActivity/index.tsx
 msgid "{count} total"
 msgstr "总共 {count}"
 
