@@ -2040,8 +2040,8 @@ msgid "The Juicebox protocol is governed by a community of JBX token holders who
 msgstr "Le protocole Juicebox est régi par une communauté de détenteurs de token JBX qui votent les propositions tous les quinze jours."
 
 #: src/components/shared/ReconfigurationStrategy/ReconfigurationStrategySelector.tsx
-msgid "The address of any smart contract deployed on {signerNetwork} that implements"
-msgstr "L'adresse de tout contrat intelligent déployé sur {signerNetwork} qui implémente"
+msgid "The address of any smart contract deployed on {signerNetwork} that implements <0>this interface</0>."
+msgstr ""
 
 #: src/components/shared/formItems/ProjectPayoutMods.tsx
 msgid "The address that should receive the tokens minted from paying this project."

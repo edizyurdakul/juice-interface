@@ -103,7 +103,7 @@ function BondingCurveRateExtra({ disabled }: { disabled?: boolean }) {
             <Trans>Token redeem value</Trans>
           </div>
         </div>
-        <p>
+        <p style={{ fontSize: '0.9rem', color: colors.text.secondary }}>
           <Trans>
             This rate determines the amount of overflow that each token can be
             redeemed for at any given time. On a lower redemption rate,

@@ -61,6 +61,9 @@ function DiscountRateExtra({
   initialIssuanceRate: number
   discountRatePercent: number
 }) {
+  const {
+    theme: { colors },
+  } = useContext(ThemeContext)
   const discountRateDecimal = discountRatePercent * 0.01
 
   const secondIssuanceRate =
@@ -68,7 +71,7 @@ function DiscountRateExtra({
   const thirdIssuanceRate =
     secondIssuanceRate - secondIssuanceRate * discountRateDecimal
   return (
-    <div>
+    <div style={{ fontSize: '0.9rem', color: colors.text.secondary }}>
       {!hasDuration && (
         <FormItemWarningText>
           <Trans>
