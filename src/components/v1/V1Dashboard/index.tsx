@@ -21,7 +21,7 @@ import useTokenAddressOfProject from 'hooks/v1/contractReader/TokenAddressOfProj
 import useUriOfProject from 'hooks/v1/contractReader/UriOfProject'
 import { useCurrencyConverter } from 'hooks/v1/CurrencyConverter'
 import { useProjectMetadata } from 'hooks/ProjectMetadata'
-import { useProjectsQuery } from 'hooks/v1/Projects'
+import { useProjectsQuery } from 'hooks/Projects'
 import { V1CurrencyOption } from 'models/v1/currencyOption'
 import { useEffect, useMemo, useState } from 'react'
 import { useHistory, useLocation, useParams } from 'react-router-dom'
